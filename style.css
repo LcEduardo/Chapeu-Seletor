@@ -84,7 +84,17 @@ main > section > p {
 
  #corvinal {
     display: none;
-    background-color: #8E9EBF;
+    background-image: url('imagens/corvinal-header.jpg');
+    background-size: cover;
+    background-position: center;
+    color: white;
+    padding: 20px;
+    text-align: center;
+ }
+
+ .newh2{
+    font-size: 3.0em;
+    text-shadow: 2px 2px 2px black;
  }
 
 footer {
