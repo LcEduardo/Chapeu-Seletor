@@ -5,7 +5,7 @@ function escolha(){
     let intervalo = 4;
     let numeroFinal = Math.floor(numeroAleatorio * intervalo) + 1
 
-    switch (numeroFinal) {
+   /* switch (numeroFinal) {
         case 1: 
             alert(`Grifinória`)
             break;
@@ -18,6 +18,11 @@ function escolha(){
         case 4: 
             alert(`Sonserina`)
             break;
+    }
+    */
+    if(numeroFinal === 2){
+        let novaParte = document.getElementById('corvinal')
+        novaParte.style.display = 'block'
     }
 
 }

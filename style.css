@@ -82,6 +82,11 @@ main > section > p {
     margin: auto;
  }
 
+ #corvinal {
+    display: none;
+    background-color: #8E9EBF;
+ }
+
 footer {
     background-color: var(--cor3);
     color: white;
