@@ -1,28 +1,27 @@
 function escolha(){
-    //window.location.reload(); 
+    
     let numeroAleatorio = Math.random()
 
     let intervalo = 4;
     let numeroFinal = Math.floor(numeroAleatorio * intervalo) + 1
 
-   /* switch (numeroFinal) {
-        case 1: 
-            alert(`Grifinória`)
-            break;
-        case 2:
-            alert(`Corvinal`)
-            break;
-        case 3:
-            alert(`Lufa Lufa`)
-            break;
-        case 4: 
-            alert(`Sonserina`)
-            break;
-    }
-    */
-    if(numeroFinal === 2){
-        let novaParte = document.getElementById('corvinal')
+    if(numeroFinal === 1){
+        let novaParte = document.getElementById('miniTelaGri')
+        novaParte.style.display = 'block'
+    }else if(numeroFinal === 2){
+        let novaParte = document.getElementById('miniTelaCor')
+        novaParte.style.display = 'block'
+    }else if(numeroFinal === 3){
+        let novaParte = document.getElementById('miniTelaSon')
+        novaParte.style.display = 'block'
+    }else if(numeroFinal === 4){
+        let novaParte = document.getElementById('miniTelaLuf')
         novaParte.style.display = 'block'
     }
 
+}
+
+function fecharMiniTela(){
+    let miniTela = document.getElementById('miniTelaCor')
+    miniTela.style.display = "none";
 }
