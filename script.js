@@ -7,21 +7,29 @@ function escolha(){
 
     if(numeroFinal === 1){
         let novaParte = document.getElementById('miniTelaGri')
+        fecharMiniTela('miniTelaGri')
         novaParte.style.display = 'block'
     }else if(numeroFinal === 2){
         let novaParte = document.getElementById('miniTelaCor')
+        fecharMiniTela('miniTelaCor')
         novaParte.style.display = 'block'
     }else if(numeroFinal === 3){
         let novaParte = document.getElementById('miniTelaSon')
+        fecharMiniTela('miniTelaSon')
         novaParte.style.display = 'block'
     }else if(numeroFinal === 4){
         let novaParte = document.getElementById('miniTelaLuf')
+        fecharMiniTela('miniTelaLuf')
         novaParte.style.display = 'block'
     }
 
 }
 
-function fecharMiniTela(){
-    let miniTela = document.getElementById('miniTelaCor')
-    miniTela.style.display = "none";
+function fecharMiniTela(idElement){
+    let elemento = document.getElementById(idElement)
+    if (elemento) {
+        elemento.style.display = "none";
+    } else {
+        console.error("Elemento com o ID '" + idElement + "' não encontrado.");
+    }
 }
