@@ -7,29 +7,28 @@ function escolha(){
 
     if(numeroFinal === 1){
         let novaParte = document.getElementById('miniTelaGri')
-        fecharMiniTela('miniTelaGri')
+       // fecharMiniTela('miniTelaGri')
         novaParte.style.display = 'block'
     }else if(numeroFinal === 2){
         let novaParte = document.getElementById('miniTelaCor')
-        fecharMiniTela('miniTelaCor')
+        //fecharMiniTela('miniTelaCor')
         novaParte.style.display = 'block'
     }else if(numeroFinal === 3){
         let novaParte = document.getElementById('miniTelaSon')
-        fecharMiniTela('miniTelaSon')
+        //fecharMiniTela('miniTelaSon')
         novaParte.style.display = 'block'
     }else if(numeroFinal === 4){
         let novaParte = document.getElementById('miniTelaLuf')
-        fecharMiniTela('miniTelaLuf')
+        //fecharMiniTela('miniTelaLuf')
         novaParte.style.display = 'block'
     }
 
 }
 
-function fecharMiniTela(idElement){
-    let elemento = document.getElementById(idElement)
-    if (elemento) {
-        elemento.style.display = "none";
-    } else {
-        console.error("Elemento com o ID '" + idElement + "' não encontrado.");
-    }
+function fecharMiniTela(){
+    let elemento = document.getElementById('test')
+    elemento.style.display = 'none'
+    setTimeout(function() {
+        window.location.reload();
+    }, 1000);
 }
