@@ -82,6 +82,17 @@ main > section > p {
     margin: auto;
  }
 
+ .imganimation {
+    width: 200px;
+    height: 200px;
+    transition: transform 0.3s ease-in-out;
+ }
+
+ .imganimation:hover{
+    transform: scale(1.2);
+    background-color: #26211F;
+ }
+
  .modal {
     display: none;
     position: fixed;
