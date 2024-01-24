@@ -38,6 +38,7 @@ header > p {
 header > nav {
     text-align: left;
     padding-top: 45px;
+    padding-bottom: 10px;
 }
 
 header > nav > a {
