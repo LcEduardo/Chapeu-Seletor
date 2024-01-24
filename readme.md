@@ -1,5 +1,5 @@
 # BEM-VINDO AO CHAPÉU SELETOR DO HARRY POTTER🧙‍♂️:
-    LINK
+    LINK: https://lceduardo.github.io/Chapeu-Seletor/
 
 ## Ideia:
 Estou trabalhando na concepção de um site que assume a função do Chapéu Seletor, inspirado no universo do Harry Potter. A proposta é simular a experiência única de determinar a qual das quatro casas da escola Hogwarts o aluno pertenceria. As opções incluem Grifinória, Sonserina, Lufa-Lufa e Corvinal. A ideia é proporcionar uma experiência interativa e envolvente, onde os usuários possam descobrir virtualmente qual casa seria a sua "destinada" pelo Chapéu Seletor.
